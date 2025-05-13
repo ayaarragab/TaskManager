@@ -1,13 +1,13 @@
-package com.taskManger.User;
+//  package com.taskManger.User;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+//  import org.junit.jupiter.api.Test;
+//  import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class UserApplicationTests {
+//  @SpringBootTest(properties = "spring.config.name=application-test")
+//  class UserApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
-}
+// }

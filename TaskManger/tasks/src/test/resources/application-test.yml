@@ -1,0 +1,39 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: User
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/task_manger
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+logging:
+  level:
+    root: ERROR
+    com.taskManger: ERROR
+  file:
+    name: logs/error.log
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%level] %logger{36} - %msg%n"
+  exception-conversion-word: "%message"
+
+jwt:
+  secret: "Z3Vuc0Bqd3Qua2V5LjMyYnl0ZXNNaW5pbXVtISEhISE=" # Should be a long, complex string in production
+  expiration: 86400000     # 24 hours in milliseconds
+  issuer: "taskManger"  # Optional but recommended
+  token-prefix: "Bearer"   # Standard prefix for JWT in Authorization header
+  header: "Authorization"  # Header where to expect the token

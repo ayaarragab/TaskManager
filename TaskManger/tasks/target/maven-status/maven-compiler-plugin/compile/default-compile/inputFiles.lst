@@ -1,0 +1,13 @@
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/TasksApplication.java
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/Models/dto/TaskDto.java
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/Services/TaskService.java
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/Models/Entity/Task.java
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/Exception/GlobalExceptionHandler.java
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/annotations/RoleCheck.java
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/Controllers/TaskController.java
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/Models/TaskStatus.java
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/aspects/ExceptionHandlingAspect.java
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/Repositeries/TaskRepository.java
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/aspects/AuthorizationAspect.java
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/security/JwtUtil.java
+/home/aya/sw-project/TaskManager/TaskManger/tasks/src/main/java/com/tasks/tasks/Models/Mapper/TaskMapper.java
